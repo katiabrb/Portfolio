@@ -23,11 +23,15 @@ const TAB_DATA = [
         title: "Education",
         id: "education",
         content: (
-            <ul className='list-disc pl-2'>
-                <li>Master CyberSecurity</li>
-                <li>Bachelor Computer Science</li>
+        <div className="grid grid-cols-[1fr_auto] gap-y-2">
+            <div className="font-medium">Master in Cybersecurity</div>
+            <div className="text-right text-gray-400">2025</div>
+            <div className="text-sm text-blue-400 col-span-2">Arab Open University</div>
 
-            </ul>
+            <div className="font-medium mt-2">Bachelor in Computer Science</div>
+            <div className="text-right text-gray-400 mt-2">2015</div>
+            <div className="text-sm text-blue-400 col-span-2">Arab Open University</div>
+        </div>
         ),
     },
     {
@@ -46,10 +50,19 @@ const TAB_DATA = [
         title: "Experience",
         id: "experience",
         content: (
-            <ul className='list-disc pl-2'>
-                <li>Solutions CTC</li>
-                <li>Lebanese General Security</li>
-                <li>MetroSuperstore</li>
+            <ul className='list-disc pl-5 space-y-2'>
+                <li>
+                <span className='font-semibold'>Solutions CTC</span> 
+                <span className='text-gray-400 text-sm'> — Magnolia Developer (2024-Present)</span>
+                </li>
+                <li>
+                <span className='font-semibold'>Lebanese General Security</span> 
+                <span className='text-gray-400 text-sm'> — Data Entry (2017-2024)</span>
+                </li>
+                <li>
+                <span className='font-semibold'>MetroSuperstore</span> 
+                <span className='text-gray-400 text-sm'> — Supervisor (2009-2017)</span>
+                </li>
             </ul>
         ),
     },
