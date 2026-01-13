@@ -28,6 +28,7 @@ const EmailSection = () => {
         const response = await fetch(endpoint, options);
         if (response.status === 200) {
             setEmailSubmitted(true);
+            e.target.reset();
         }
     };
 
