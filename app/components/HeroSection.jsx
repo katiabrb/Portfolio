@@ -40,8 +40,8 @@ const HeroSection = () => {
               </Link>
 
               <a 
-                href="/Katia_CV.pdf" 
-                download="Katia_CV.pdf"
+                href="/Katia-Berbery-CV.pdf" 
+                download="Katia-Berbery-CV.pdf"
                 className='inline-block px-1 py-1 w-full sm:w-fit rounded-full bg-linear-to-br from-blue-500 via-sky-600 to-cyan-500 hover:bg-slate-800 text-white mt-3'
               >
                 <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 text-center'>
